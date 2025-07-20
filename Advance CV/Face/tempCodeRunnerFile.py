@@ -1,0 +1,1 @@
+cv2.putText(frame,f"Fps:{int(fps)}",(20,70),cv2.FONT_HERSHEY_PLAIN,3,(255,0,0),2)
