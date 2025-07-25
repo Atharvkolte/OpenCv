@@ -17,7 +17,7 @@ while True:
         break
     
     imgRGB=cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
-    result=faceMesh.process(imgRGB)
+    result=faceMesh.process(imgRGB)  
     if result.multi_face_landmarks:
         for facelms in result.multi_face_landmarks:
             #mpDraw.draw_landmarks(frame, facelms, mpFaceMesh.FACEMESH_TESSELATION)
