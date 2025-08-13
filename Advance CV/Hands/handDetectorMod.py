@@ -51,7 +51,24 @@ import time
 
 
 class HandDetector():
-    def __init__(self, mode=False, maxHands=2, modelComplexity=1, min_detection_confidence=0.5, min_tracking_confidence=0.5):
+    def __init__(self, mode=False, maxHands=2
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 , modelComplexity=1, min_detection_confidence=0.5, min_tracking_confidence=0.5):
         self.mode = mode
         self.maxHands = maxHands
         self.modelComplexity = modelComplexity
