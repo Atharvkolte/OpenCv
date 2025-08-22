@@ -31,7 +31,7 @@ while True:
 
     frame = cv2.flip(frame, 1)
     h, w, _ = frame.shape
-    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)    
     result = hands.process(rgb)
 
     if result.multi_hand_landmarks:
